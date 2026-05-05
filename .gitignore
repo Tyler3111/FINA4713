@@ -6,5 +6,17 @@ venv/
 
 # for the proj
 Proj/jkp_data.parquet
+Proj/jkp_data_slim.parquet
 Proj/files/
 Proj/.claude/
+
+# for the NN
+
+Proj/NN/files/models/
+Proj/NN/__pycache__/
+Proj/NN/files/
+Proj/NN/__pycache__/
+
+Proj/AK_data_changes/files/
+Proj/AK_data_changes/staged_run/AK_data_changes/files/
+Proj/AK_data_changes/staged_run/__pycache__/
