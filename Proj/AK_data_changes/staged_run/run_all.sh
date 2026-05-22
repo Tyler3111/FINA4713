@@ -7,13 +7,13 @@
 
 set -e  # stop on first error
 
-PYTHON=../../../venv/bin/python3
+PYTHON=~/miniconda3/envs/4222/bin/python3
 STAGED=.
 
-echo "=========================================="
-echo "STAGE 1: Preprocessing + IC + PCA"
-echo "=========================================="
-$PYTHON -u $STAGED/stage1_preprocess.py
+# echo "=========================================="
+# echo "STAGE 1: Preprocessing + IC + PCA"
+# echo "=========================================="
+# $PYTHON -u $STAGED/stage1_preprocess.py
 
 echo ""
 echo "=========================================="
